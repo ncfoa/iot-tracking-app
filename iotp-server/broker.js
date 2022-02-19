@@ -9,5 +9,6 @@ broker.on('ready', ()=>{
 
 broker.on('published', (packet)=>{
     message = packet.payload.toString()
+    console.log("Try this new feature")
     console.log(message)
 })
