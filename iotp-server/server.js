@@ -32,6 +32,7 @@ app.get("/:lat/:lng" ,(req,res) => {
 })
 
 app.get("/",(req,res) => {
+    console.log("this is a print");
     res.send(JSON.stringify(x));
 })
 
